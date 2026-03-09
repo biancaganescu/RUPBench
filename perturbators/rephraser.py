@@ -129,7 +129,7 @@ class Rephraser:
         response = requests.post(
         url="https://openrouter.ai/api/v1/chat/completions",
         headers={
-            "Authorization": "Bearer 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",
+            "Authorization": "",
         },
         data=json.dumps({
             "model": self.model_name,
